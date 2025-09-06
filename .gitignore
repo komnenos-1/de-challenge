@@ -1,0 +1,15 @@
+# Python
+--pycache--/
+*.pyc
+.venv/
+.env
+
+# Editor
+.vscode/
+
+# Data (input files not committed)
+data/*
+!data/README.md
+
+# Docker
+pgdata/
