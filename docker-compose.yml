@@ -1,0 +1,16 @@
+services:
+  db:
+    image: postgres:15
+    container_name: de_db
+    environment:
+      POSTGRES_USER: ${PGUSER:-deuser}
+      POSTGRES_PASSWORD: ${PGPASSWORD:-secret}
+      POSTGRES_DB: ${PGDATABASE:-dedb}
+    ports:
+      - "55432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./docs:/docker-entrypoint-initdb.d:ro  # runs any *.sql on first start
+
+volumes:
+  pgdata:
