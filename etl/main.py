@@ -17,6 +17,9 @@ def load_json(path):
         return data if isinstance(data, list) else [data]
 
 def run():
+    from .config import DB_CONN, INPUT_PATH
+    print("ETL connecting with:", DB_CONN)
+    print("Reading input from:", INPUT_PATH)
     records = load_json(INPUT_PATH)
     with get_conn() as conn:
         with conn.cursor() as cur:
