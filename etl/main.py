@@ -1,6 +1,7 @@
 import json
 import os
 import psycopg2
+import logging
 from psycopg2.extras import execute_values
 from etl.db import get_conn
 from etl.config import INPUT_PATH
@@ -10,25 +11,59 @@ from etl.loaders.orders import upsert_orders
 from etl.loaders.line_items import upsert_order_line_items
 from etl.loaders.order_taxes import upsert_order_taxes
 
+# --- Configure logging ---
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s [%(levelname)s] %(name)s - %(message)s",
+)
+logger = logging.getLogger("etl")
+
+def _log_count(name, count):
+    if count == 0:
+        logger.warning("No %s were upserted!", name)
+    else:
+        logger.info("Upserted %s %s", count, name)
 
 def load_json(path):
+    logger.info(f"Loading JSON from {path}")
     with open(path, "r", encoding="utf-8") as f:
         data = json.load(f)
         return data if isinstance(data, list) else [data]
 
 def run():
     from .config import DB_CONN, INPUT_PATH
-    print("ETL connecting with:", DB_CONN)
-    print("Reading input from:", INPUT_PATH)
-    records = load_json(INPUT_PATH)
-    with get_conn() as conn:
-        with conn.cursor() as cur:
-            n1 = upsert_customers(cur, records)
-            n2 = upsert_addresses(cur, records)
-            n3 = upsert_orders(cur, records)
-            n4 = upsert_order_line_items(cur, records)
-            n5 = upsert_order_taxes(cur, records)
-            print(f"customers={n1}, addresses={n2}, orders={n3}, line_items={n4}, order_taxes={n5}")
+    logger.info("ETL connecting with: %s", DB_CONN)
+    logger.info("Reading input from: %s", INPUT_PATH)
+
+    try:
+        records = load_json(INPUT_PATH)
+
+        with get_conn() as conn:
+            with conn.cursor() as cur:
+                n1 = upsert_customers(cur, records)
+                _log_count("customers", n1)
+
+                n2 = upsert_addresses(cur, records)
+                _log_count("addresses", n2)
+
+                n3 = upsert_orders(cur, records)
+                _log_count("orders", n3)
+
+                n4 = upsert_order_line_items(cur, records)
+                _log_count("line items", n4)
+
+                n5 = upsert_order_taxes(cur, records)
+                _log_count("order taxes", n5)
+
+        logger.info(
+            "ETL completed successfully: customers=%s, addresses=%s, orders=%s, "
+            "line_items=%s, order_taxes=%s",
+            n1, n2, n3, n4, n5
+        )
+
+    except Exception as e:
+        logger.exception("ETL failed due to an unexpected error")
+        raise
 
 if __name__ == "__main__":
     run()
