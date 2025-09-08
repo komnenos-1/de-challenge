@@ -15,9 +15,17 @@ This project demonstrates a simple ETL pipeline:
 
 docker compose up -d
 
+or
+
+make up
+
 ### 2. Run ETL
 
 python -m etl.main
+
+or
+
+make run-etl
 
 ### 3. Inspect data
 
@@ -28,9 +36,17 @@ docker exec -it de_db psql -U deuser -d dedb -c "SELECT COUNT(*) FROM orders;"
 
 docker compose down -v && docker compose up -d
 
+or
+
+make reset
+
 ### 5. Run tests
 
 pytest -q
+
+or
+
+make test
 
 ## Example queries
 
