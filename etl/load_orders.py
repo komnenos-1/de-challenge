@@ -4,11 +4,11 @@ import psycopg2
 from psycopg2.extras import execute_values
 
 DB_CONN = {
-    "dbname": os.getenv("PGDATABASE", "ordersdb"),
-    "user": os.getenv("PGUSER", "postgres"),
-    "password": os.getenv("PGPASSWORD", "postgres"),
-    "host": os.getenv("PGHOST", "localhost"),
-    "port": os.getenv("PGPORT", "5432"),
+  "dbname": "dedb",
+    "user": "deuser",
+    "password": "secret",
+    "host": "127.0.0.1",
+    "port": "55432"
 }
 
 def load_json(path):
