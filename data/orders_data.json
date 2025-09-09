@@ -1,0 +1,2821 @@
+[
+  {
+    "InternalOrderId": 35877,
+    "ExternalOrderId": "10077116",
+    "OrderDateUtc": "2025-09-01T05:26:24.353Z",
+    "LastUpdatedDateUtc": "2025-09-01T05:40:48.493Z",
+    "DeadlineDateUtc": null,
+    "OrderStatus": "Paid",
+    "InvoiceStatus": "FullyInvoiced",
+    "ShipmentStatus": "FullyShipped",
+    "ShipToStore": null,
+    "BillingCustomer": {
+      "FirstName": "Autotest",
+      "LastName": "Autotest",
+      "EmailAddress": "d9db2de589634aefab425f8bdf85755a@test.com",
+      "InternalCustomerId": 14802,
+      "ExternalCustomerId": null,
+      "UserId": "83022395"
+    },
+    "LineItems": [
+      {
+        "InternalLineItemId": 52879,
+        "ProductName": "VELVET/MRKEGRN, PYNTEPUDE",
+        "ItemName": "1005,M* Living,Magasin du Nord Collection,VELVET/MRKEGRN, PYNTEPUDE,35403,,,5704342035403",
+        "Description": "",
+        "QuantityInvoiced": 2,
+        "QuantityShipped": 2,
+        "QuantityCancelled": 0,
+        "QuantityReturned": 0,
+        "SubTotal": 598,
+        "TotalTax": 119.6,
+        "Total": 598,
+        "IsPreOrder": false,
+        "Taxes": [
+          {
+            "InternalTaxRateId": 8,
+            "Amount": 119.6,
+            "BackendName": "VAT DK 0.25",
+            "PublicTaxName": "VAT DK 25%",
+            "TaxType": "Net",
+            "Rate": 0.25
+          }
+        ],
+        "SKU": "S12217889",
+        "ExternalLineItemId": null,
+        "QuantityOrdered": 2,
+        "UnitPrice": 299,
+        "UnitDiscount": 0,
+        "CustomFields": [
+          {
+            "Name": "externallineitemid",
+            "Value": "1"
+          },
+          {
+            "Name": "productean",
+            "Value": "5704342035403"
+          },
+          {
+            "Name": "restrictiongroup",
+            "Value": "GENERIC"
+          },
+          {
+            "Name": "returncode",
+            "Value": "0002124034886"
+          },
+          {
+            "Name": "resendreason",
+            "Value": ""
+          },
+          {
+            "Name": "hasgiftwrapping",
+            "Value": null
+          },
+          {
+            "Name": "giftwrappingqty",
+            "Value": null
+          },
+          {
+            "Name": "color",
+            "Value": "0008"
+          },
+          {
+            "Name": "size",
+            "Value": "NO_SIZE"
+          },
+          {
+            "Name": "unitproductdiscount",
+            "Value": "0.000000"
+          },
+          {
+            "Name": "unitorderdiscount",
+            "Value": "0.000000"
+          },
+          {
+            "Name": "unittotal",
+            "Value": "299.000000"
+          },
+          {
+            "Name": "unittotalproddisc",
+            "Value": "299.000000"
+          },
+          {
+            "Name": "bopisshlocation",
+            "Value": ""
+          }
+        ]
+      },
+      {
+        "InternalLineItemId": 52880,
+        "ProductName": "Koral Musselmalet Halvblonde Tallerken 19 cm",
+        "ItemName": "2710,Royal Copenhagen,Royal Copenhagen,Koral Musselmalet Halvblonde Tallerken 19 cm,1068100,Hvid,19 cm,5705140742951",
+        "Description": "",
+        "QuantityInvoiced": 1,
+        "QuantityShipped": 1,
+        "QuantityCancelled": 0,
+        "QuantityReturned": 0,
+        "SubTotal": 1167.55,
+        "TotalTax": 233.51,
+        "Total": 1167.55,
+        "IsPreOrder": false,
+        "Taxes": [
+          {
+            "InternalTaxRateId": 8,
+            "Amount": 233.51,
+            "BackendName": "VAT DK 0.25",
+            "PublicTaxName": "VAT DK 25%",
+            "TaxType": "Net",
+            "Rate": 0.25
+          }
+        ],
+        "SKU": "S12231788",
+        "ExternalLineItemId": null,
+        "QuantityOrdered": 1,
+        "UnitPrice": 1229,
+        "UnitDiscount": 61.45,
+        "CustomFields": [
+          {
+            "Name": "externallineitemid",
+            "Value": "2"
+          },
+          {
+            "Name": "productean",
+            "Value": "5705140742951"
+          },
+          {
+            "Name": "restrictiongroup",
+            "Value": "GENERIC"
+          },
+          {
+            "Name": "returncode",
+            "Value": "0002124034947"
+          },
+          {
+            "Name": "resendreason",
+            "Value": ""
+          },
+          {
+            "Name": "hasgiftwrapping",
+            "Value": true
+          },
+          {
+            "Name": "giftwrappingqty",
+            "Value": 1
+          },
+          {
+            "Name": "color",
+            "Value": "Hvid"
+          },
+          {
+            "Name": "size",
+            "Value": "19 cm"
+          },
+          {
+            "Name": "unitproductdiscount",
+            "Value": "61.450000"
+          },
+          {
+            "Name": "unitorderdiscount",
+            "Value": "0.000000"
+          },
+          {
+            "Name": "unittotal",
+            "Value": "1167.550000"
+          },
+          {
+            "Name": "unittotalproddisc",
+            "Value": "1167.550000"
+          },
+          {
+            "Name": "bopisshlocation",
+            "Value": ""
+          }
+        ]
+      },
+      {
+        "InternalLineItemId": 52881,
+        "ProductName": "Magasin Giftwrap",
+        "ItemName": "Giftwrap",
+        "Description": "",
+        "QuantityInvoiced": 1,
+        "QuantityShipped": 1,
+        "QuantityCancelled": 0,
+        "QuantityReturned": 0,
+        "SubTotal": 10,
+        "TotalTax": 2,
+        "Total": 10,
+        "IsPreOrder": false,
+        "Taxes": [
+          {
+            "InternalTaxRateId": 8,
+            "Amount": 2,
+            "BackendName": "VAT DK 0.25",
+            "PublicTaxName": "VAT DK 25%",
+            "TaxType": "Net",
+            "Rate": 0.25
+          }
+        ],
+        "SKU": "2222002034243",
+        "ExternalLineItemId": null,
+        "QuantityOrdered": 1,
+        "UnitPrice": 10,
+        "UnitDiscount": 0,
+        "CustomFields": [
+          {
+            "Name": "externallineitemid",
+            "Value": "3"
+          },
+          {
+            "Name": "productean",
+            "Value": "2222002034243"
+          },
+          {
+            "Name": "restrictiongroup",
+            "Value": "GENERIC"
+          },
+          {
+            "Name": "returncode",
+            "Value": "0002124035005"
+          },
+          {
+            "Name": "resendreason",
+            "Value": ""
+          },
+          {
+            "Name": "hasgiftwrapping",
+            "Value": null
+          },
+          {
+            "Name": "giftwrappingqty",
+            "Value": null
+          },
+          {
+            "Name": "color",
+            "Value": ""
+          },
+          {
+            "Name": "size",
+            "Value": ""
+          },
+          {
+            "Name": "unitproductdiscount",
+            "Value": "0.000000"
+          },
+          {
+            "Name": "unitorderdiscount",
+            "Value": "0.000000"
+          },
+          {
+            "Name": "unittotal",
+            "Value": "10.000000"
+          },
+          {
+            "Name": "unittotalproddisc",
+            "Value": "10.000000"
+          },
+          {
+            "Name": "bopisshlocation",
+            "Value": ""
+          }
+        ]
+      }
+    ],
+    "BillingAddress": {
+      "Id": 63738,
+      "ExternalAddressId": "",
+      "FirstName": "Autotest",
+      "LastName": "Autotest",
+      "CompanyName": "",
+      "AddressLine1": "Nybrogade 2",
+      "AddressLine2": "",
+      "AddressLine3": "",
+      "City": "Copenhagen",
+      "State": "DEFAULT",
+      "ZipCode": "1203",
+      "CountryCode": "DK",
+      "Latitude": null,
+      "Longitude": null
+    },
+    "ShippingAddress": {
+      "Id": 63739,
+      "ExternalAddressId": "",
+      "FirstName": "Autotest",
+      "LastName": "Autotest",
+      "CompanyName": "",
+      "AddressLine1": "Nybrogade 2",
+      "AddressLine2": "",
+      "AddressLine3": "",
+      "City": "Copenhagen",
+      "State": "COPENHAGEN",
+      "ZipCode": "1203",
+      "CountryCode": "DK",
+      "Latitude": null,
+      "Longitude": null
+    },
+    "OrderPayments": [
+      {
+        "InternalOrderPaymentId": 41102,
+        "ExternalOrderPaymentId": null,
+        "PaymentType": "CreditCard",
+        "PaymentTypeDescription": "OTHER - XXXXXXXXXXXX0000",
+        "PaymentId": 13039,
+        "Amount": 1830.55,
+        "AmountAuthorized": 1830.55,
+        "AmountCaptured": 1830.55,
+        "Status": "Captured",
+        "LastUpdatedBy": {
+          "StaffName": "",
+          "StaffId": null
+        },
+        "CustomFields": [
+          {
+            "Name": "refundpriority",
+            "Value": true
+          },
+          {
+            "Name": "capturepriority",
+            "Value": 0
+          },
+          {
+            "Name": "giftcardpinnumber",
+            "Value": ""
+          }
+        ]
+      }
+    ],
+    "Taxes": [
+      {
+        "InternalTaxRateId": 8,
+        "Amount": 366.11,
+        "BackendName": "VAT DK 0.25",
+        "PublicTaxName": "VAT DK 25%",
+        "TaxType": "Net",
+        "Rate": 0.25
+      }
+    ],
+    "ShippingRate": [
+      {
+        "InternalShippingRateId": 33,
+        "PublicShippingRateName": "glsPrivate",
+        "BackendName": "glsPrivate",
+        "RateCode": "glsPrivate",
+        "CurrentRate": 0,
+        "EnableReturnLabelGeneration": false
+      }
+    ],
+    "ShippingTaxes": [
+      {
+        "InternalTaxRateId": 8,
+        "Amount": 11,
+        "BackendName": "VAT DK 0.25",
+        "PublicTaxName": "VAT DK 25%",
+        "TaxType": "Net",
+        "Rate": 0.25
+      }
+    ],
+    "ShippingTotal": 55,
+    "SubTotal": 1837,
+    "DiscountTotal": 61.45,
+    "OrderTotal": 1830.55,
+    "CurrencyCode": "DKK",
+    "UICultureName": "da-DK",
+    "EStoreCultureName": "da-DK",
+    "Channel": "MAGASIN_DK_DKK",
+    "AdditionalFlags": "None",
+    "Comments": "",
+    "OriginIPAddress": "",
+    "CustomFields": [
+      {
+        "Name": "ordertype",
+        "Value": "STD"
+      },
+      {
+        "Name": "createshipmentprocesseddateutc",
+        "Value": "2025-09-01T05:32:37.63Z"
+      },
+      {
+        "Name": "ordercaptured",
+        "Value": false
+      },
+      {
+        "Name": "customerloyaltytier",
+        "Value": ""
+      },
+      {
+        "Name": "ordercompleteddate",
+        "Value": "2025-09-01T05:40:48.49Z"
+      },
+      {
+        "Name": "fiftytworeleaseddate",
+        "Value": null
+      },
+      {
+        "Name": "resendorder",
+        "Value": "False"
+      },
+      {
+        "Name": "redemptionid",
+        "Value": ""
+      },
+      {
+        "Name": "hasgiftwrapping",
+        "Value": true
+      },
+      {
+        "Name": "isguest",
+        "Value": "no"
+      },
+      {
+        "Name": "shippingdiscount",
+        "Value": "0.000000"
+      },
+      {
+        "Name": "isvoucherapplied",
+        "Value": ""
+      },
+      {
+        "Name": "voucherredemptions",
+        "Value": ""
+      },
+      {
+        "Name": "voucherdecisiondate",
+        "Value": null
+      },
+      {
+        "Name": "voucherdecision",
+        "Value": ""
+      },
+      {
+        "Name": "updatedcustomeremail",
+        "Value": "d9db2de589634aefab425f8bdf85755a@test.com"
+      },
+      {
+        "Name": "updatedcustomerphone",
+        "Value": "53431981"
+      },
+      {
+        "Name": "isinemployeeprogram",
+        "Value": "false"
+      },
+      {
+        "Name": "creditcardlastdigits",
+        "Value": ""
+      },
+      {
+        "Name": "giftcardnumber",
+        "Value": ""
+      },
+      {
+        "Name": "couponid",
+        "Value": ""
+      },
+      {
+        "Name": "nshift_api_logs",
+        "Value": ""
+      },
+      {
+        "Name": "originalsrcsystem",
+        "Value": ""
+      },
+      {
+        "Name": "branchname",
+        "Value": ""
+      }
+    ],
+    "AdditionalInformation": {
+      "C_transactionCode": "00150980771162509010526249",
+      "OrderCurrency": "DKK",
+      "OverridingCultureName": "da-DK",
+      "UICultureName": "da-DK",
+      "IsImportedOrder": true,
+      "HAS_PASSED_PREAUTH_FRAUD": true,
+      "StartOrder_Server": "sandbox3svc02",
+      "HAS_ORR_FAILURE": false
+    }
+  },
+  {
+    "InternalOrderId": 35870,
+    "ExternalOrderId": "10077109",
+    "OrderDateUtc": "2025-09-01T05:25:42.583Z",
+    "LastUpdatedDateUtc": "2025-09-01T05:37:37.123Z",
+    "DeadlineDateUtc": null,
+    "OrderStatus": "Cancelled",
+    "InvoiceStatus": "NotInvoiced",
+    "ShipmentStatus": "NotShipped",
+    "ShipToStore": null,
+    "BillingCustomer": {
+      "FirstName": "Autotest",
+      "LastName": "Autotest",
+      "EmailAddress": "8eaa49aa2daa4724b10bb66e528bc30a@test.com",
+      "InternalCustomerId": 14795,
+      "ExternalCustomerId": null,
+      "UserId": "83022391"
+    },
+    "LineItems": [
+      {
+        "InternalLineItemId": 52868,
+        "ProductName": "Handkerchief 1-pack",
+        "ItemName": "Handkerchief 1-pack",
+        "Description": "",
+        "QuantityInvoiced": 0,
+        "QuantityShipped": 0,
+        "QuantityCancelled": 1,
+        "QuantityReturned": 0,
+        "SubTotal": 0,
+        "TotalTax": 0,
+        "Total": 0,
+        "IsPreOrder": false,
+        "Taxes": [
+          {
+            "InternalTaxRateId": 8,
+            "Amount": 25.8,
+            "BackendName": "VAT DK 0.25",
+            "PublicTaxName": "VAT DK 25%",
+            "TaxType": "Net",
+            "Rate": 0.25
+          }
+        ],
+        "SKU": "S09314295",
+        "ExternalLineItemId": null,
+        "QuantityOrdered": 1,
+        "UnitPrice": 129,
+        "UnitDiscount": 0,
+        "CustomFields": [
+          {
+            "Name": "externallineitemid",
+            "Value": "1"
+          },
+          {
+            "Name": "productean",
+            "Value": "7325590898688"
+          },
+          {
+            "Name": "restrictiongroup",
+            "Value": "GENERIC"
+          },
+          {
+            "Name": "returncode",
+            "Value": "0002123965075"
+          },
+          {
+            "Name": "resendreason",
+            "Value": ""
+          },
+          {
+            "Name": "hasgiftwrapping",
+            "Value": null
+          },
+          {
+            "Name": "giftwrappingqty",
+            "Value": null
+          },
+          {
+            "Name": "color",
+            "Value": "100 White"
+          },
+          {
+            "Name": "size",
+            "Value": "One size"
+          },
+          {
+            "Name": "unitproductdiscount",
+            "Value": "0.000000"
+          },
+          {
+            "Name": "unitorderdiscount",
+            "Value": "0.000000"
+          },
+          {
+            "Name": "unittotal",
+            "Value": "129.000000"
+          },
+          {
+            "Name": "unittotalproddisc",
+            "Value": "129.000000"
+          },
+          {
+            "Name": "bopisshlocation",
+            "Value": ""
+          }
+        ]
+      }
+    ],
+    "BillingAddress": {
+      "Id": 63724,
+      "ExternalAddressId": "",
+      "FirstName": "Autotest",
+      "LastName": "Autotest",
+      "CompanyName": "",
+      "AddressLine1": "Nybrogade 2",
+      "AddressLine2": "",
+      "AddressLine3": "",
+      "City": "Copenhagen",
+      "State": "DEFAULT",
+      "ZipCode": "1203",
+      "CountryCode": "DK",
+      "Latitude": null,
+      "Longitude": null
+    },
+    "ShippingAddress": {
+      "Id": 63725,
+      "ExternalAddressId": "",
+      "FirstName": "Autotest",
+      "LastName": "Autotest",
+      "CompanyName": "",
+      "AddressLine1": "Nybrogade 2",
+      "AddressLine2": "",
+      "AddressLine3": "",
+      "City": "Copenhagen",
+      "State": "COPENHAGEN",
+      "ZipCode": "1203",
+      "CountryCode": "DK",
+      "Latitude": null,
+      "Longitude": null
+    },
+    "OrderPayments": [
+      {
+        "InternalOrderPaymentId": 41095,
+        "ExternalOrderPaymentId": null,
+        "PaymentType": "CreditCard",
+        "PaymentTypeDescription": "OTHER - XXXXXXXXXXXX0000",
+        "PaymentId": 13035,
+        "Amount": 184,
+        "AmountAuthorized": 0,
+        "AmountCaptured": 0,
+        "Status": "Cancelled",
+        "LastUpdatedBy": {
+          "StaffName": "",
+          "StaffId": null
+        },
+        "CustomFields": [
+          {
+            "Name": "refundpriority",
+            "Value": true
+          },
+          {
+            "Name": "capturepriority",
+            "Value": 0
+          },
+          {
+            "Name": "giftcardpinnumber",
+            "Value": ""
+          }
+        ]
+      }
+    ],
+    "Taxes": [
+      {
+        "InternalTaxRateId": 8,
+        "Amount": 36.8,
+        "BackendName": "VAT DK 0.25",
+        "PublicTaxName": "VAT DK 25%",
+        "TaxType": "Net",
+        "Rate": 0.25
+      }
+    ],
+    "ShippingRate": [
+      {
+        "InternalShippingRateId": 33,
+        "PublicShippingRateName": "glsPrivate",
+        "BackendName": "glsPrivate",
+        "RateCode": "glsPrivate",
+        "CurrentRate": 0,
+        "EnableReturnLabelGeneration": false
+      }
+    ],
+    "ShippingTaxes": [
+      {
+        "InternalTaxRateId": 8,
+        "Amount": 11,
+        "BackendName": "VAT DK 0.25",
+        "PublicTaxName": "VAT DK 25%",
+        "TaxType": "Net",
+        "Rate": 0.25
+      }
+    ],
+    "ShippingTotal": 55,
+    "SubTotal": 129,
+    "DiscountTotal": 0,
+    "OrderTotal": 184,
+    "CurrencyCode": "DKK",
+    "UICultureName": "da-DK",
+    "EStoreCultureName": "da-DK",
+    "Channel": "MAGASIN_DK_DKK",
+    "AdditionalFlags": "None",
+    "Comments": "",
+    "OriginIPAddress": "",
+    "CustomFields": [
+      {
+        "Name": "ordertype",
+        "Value": "STD"
+      },
+      {
+        "Name": "createshipmentprocesseddateutc",
+        "Value": "2025-09-01T05:32:37.107Z"
+      },
+      {
+        "Name": "ordercaptured",
+        "Value": false
+      },
+      {
+        "Name": "customerloyaltytier",
+        "Value": ""
+      },
+      {
+        "Name": "ordercompleteddate",
+        "Value": "2025-09-01T05:37:37.113Z"
+      },
+      {
+        "Name": "fiftytworeleaseddate",
+        "Value": null
+      },
+      {
+        "Name": "resendorder",
+        "Value": "False"
+      },
+      {
+        "Name": "redemptionid",
+        "Value": ""
+      },
+      {
+        "Name": "hasgiftwrapping",
+        "Value": false
+      },
+      {
+        "Name": "isguest",
+        "Value": "no"
+      },
+      {
+        "Name": "shippingdiscount",
+        "Value": "0.000000"
+      },
+      {
+        "Name": "isvoucherapplied",
+        "Value": ""
+      },
+      {
+        "Name": "voucherredemptions",
+        "Value": ""
+      },
+      {
+        "Name": "voucherdecisiondate",
+        "Value": null
+      },
+      {
+        "Name": "voucherdecision",
+        "Value": ""
+      },
+      {
+        "Name": "updatedcustomeremail",
+        "Value": "8eaa49aa2daa4724b10bb66e528bc30a@test.com"
+      },
+      {
+        "Name": "updatedcustomerphone",
+        "Value": "72357691"
+      },
+      {
+        "Name": "isinemployeeprogram",
+        "Value": "false"
+      },
+      {
+        "Name": "creditcardlastdigits",
+        "Value": ""
+      },
+      {
+        "Name": "giftcardnumber",
+        "Value": ""
+      },
+      {
+        "Name": "couponid",
+        "Value": ""
+      },
+      {
+        "Name": "nshift_api_logs",
+        "Value": ""
+      },
+      {
+        "Name": "originalsrcsystem",
+        "Value": ""
+      },
+      {
+        "Name": "branchname",
+        "Value": ""
+      }
+    ],
+    "AdditionalInformation": {
+      "C_transactionCode": "00150980771092509010525428",
+      "OrderCurrency": "DKK",
+      "OverridingCultureName": "da-DK",
+      "UICultureName": "da-DK",
+      "IsImportedOrder": true,
+      "HAS_PASSED_PREAUTH_FRAUD": true,
+      "StartOrder_Server": "sandbox3svc02",
+      "HAS_ORR_FAILURE": false
+    }
+  },
+  {
+    "InternalOrderId": 36221,
+    "ExternalOrderId": "10077463",
+    "OrderDateUtc": "2025-09-05T05:44:19.773Z",
+    "LastUpdatedDateUtc": "2025-09-05T05:54:33.067Z",
+    "DeadlineDateUtc": null,
+    "OrderStatus": "Paid",
+    "InvoiceStatus": "FullyInvoiced",
+    "ShipmentStatus": "FullyShipped",
+    "ShipToStore": null,
+    "BillingCustomer": {
+      "FirstName": "Autotest",
+      "LastName": "Autotest",
+      "EmailAddress": "d931bf9a60104d039e2c653cd1dbfef6@test.com",
+      "InternalCustomerId": 15091,
+      "ExternalCustomerId": null,
+      "UserId": "83022726"
+    },
+    "LineItems": [
+      {
+        "InternalLineItemId": 53444,
+        "ProductName": "ULTRA FACIAL CREAM 125 ML AS OS",
+        "ItemName": "ULTRA FACIAL CREAM 125 ML AS OS",
+        "Description": "",
+        "QuantityInvoiced": 1,
+        "QuantityShipped": 1,
+        "QuantityCancelled": 0,
+        "QuantityReturned": 1,
+        "SubTotal": 490,
+        "TotalTax": 98,
+        "Total": 490,
+        "IsPreOrder": false,
+        "Taxes": [
+          {
+            "InternalTaxRateId": 8,
+            "Amount": 98,
+            "BackendName": "VAT DK 0.25",
+            "PublicTaxName": "VAT DK 25%",
+            "TaxType": "Net",
+            "Rate": 0.25
+          }
+        ],
+        "SKU": "S00086027",
+        "ExternalLineItemId": null,
+        "QuantityOrdered": 1,
+        "UnitPrice": 490,
+        "UnitDiscount": 0,
+        "CustomFields": [
+          {
+            "Name": "externallineitemid",
+            "Value": "1"
+          },
+          {
+            "Name": "productean",
+            "Value": "3605975028799"
+          },
+          {
+            "Name": "restrictiongroup",
+            "Value": "GENERIC"
+          },
+          {
+            "Name": "returncode",
+            "Value": "0002127508421"
+          },
+          {
+            "Name": "resendreason",
+            "Value": ""
+          },
+          {
+            "Name": "hasgiftwrapping",
+            "Value": null
+          },
+          {
+            "Name": "giftwrappingqty",
+            "Value": null
+          },
+          {
+            "Name": "color",
+            "Value": "No Color"
+          },
+          {
+            "Name": "size",
+            "Value": "125 ML"
+          },
+          {
+            "Name": "unitproductdiscount",
+            "Value": "0.000000"
+          },
+          {
+            "Name": "unitorderdiscount",
+            "Value": "0.000000"
+          },
+          {
+            "Name": "unittotal",
+            "Value": "490.000000"
+          },
+          {
+            "Name": "unittotalproddisc",
+            "Value": "490.000000"
+          },
+          {
+            "Name": "bopisshlocation",
+            "Value": ""
+          }
+        ]
+      }
+    ],
+    "BillingAddress": {
+      "Id": 64426,
+      "ExternalAddressId": "",
+      "FirstName": "Autotest",
+      "LastName": "Autotest",
+      "CompanyName": "",
+      "AddressLine1": "Nybrogade 2",
+      "AddressLine2": "",
+      "AddressLine3": "",
+      "City": "Copenhagen",
+      "State": "DEFAULT",
+      "ZipCode": "1203",
+      "CountryCode": "DK",
+      "Latitude": null,
+      "Longitude": null
+    },
+    "ShippingAddress": {
+      "Id": 64427,
+      "ExternalAddressId": "",
+      "FirstName": "Autotest",
+      "LastName": "Autotest",
+      "CompanyName": "",
+      "AddressLine1": "Nybrogade 2",
+      "AddressLine2": "",
+      "AddressLine3": "",
+      "City": "Copenhagen",
+      "State": "COPENHAGEN",
+      "ZipCode": "1203",
+      "CountryCode": "DK",
+      "Latitude": null,
+      "Longitude": null
+    },
+    "OrderPayments": [
+      {
+        "InternalOrderPaymentId": 41480,
+        "ExternalOrderPaymentId": null,
+        "PaymentType": "CreditCard",
+        "PaymentTypeDescription": "OTHER - XXXXXXXXXXXX0000",
+        "PaymentId": 13285,
+        "Amount": 545,
+        "AmountAuthorized": 545,
+        "AmountCaptured": 545,
+        "Status": "Captured",
+        "LastUpdatedBy": {
+          "StaffName": "",
+          "StaffId": null
+        },
+        "CustomFields": [
+          {
+            "Name": "refundpriority",
+            "Value": true
+          },
+          {
+            "Name": "capturepriority",
+            "Value": 0
+          },
+          {
+            "Name": "giftcardpinnumber",
+            "Value": ""
+          }
+        ]
+      }
+    ],
+    "Taxes": [
+      {
+        "InternalTaxRateId": 8,
+        "Amount": 109,
+        "BackendName": "VAT DK 0.25",
+        "PublicTaxName": "VAT DK 25%",
+        "TaxType": "Net",
+        "Rate": 0.25
+      }
+    ],
+    "ShippingRate": [
+      {
+        "InternalShippingRateId": 33,
+        "PublicShippingRateName": "glsPrivate",
+        "BackendName": "glsPrivate",
+        "RateCode": "glsPrivate",
+        "CurrentRate": 0,
+        "EnableReturnLabelGeneration": false
+      }
+    ],
+    "ShippingTaxes": [
+      {
+        "InternalTaxRateId": 8,
+        "Amount": 11,
+        "BackendName": "VAT DK 0.25",
+        "PublicTaxName": "VAT DK 25%",
+        "TaxType": "Net",
+        "Rate": 0.25
+      }
+    ],
+    "ShippingTotal": 55,
+    "SubTotal": 490,
+    "DiscountTotal": 0,
+    "OrderTotal": 545,
+    "CurrencyCode": "DKK",
+    "UICultureName": "da-DK",
+    "EStoreCultureName": "da-DK",
+    "Channel": "MAGASIN_DK_DKK",
+    "AdditionalFlags": "Returned",
+    "Comments": "",
+    "OriginIPAddress": "",
+    "CustomFields": [
+      {
+        "Name": "ordertype",
+        "Value": "STD"
+      },
+      {
+        "Name": "createshipmentprocesseddateutc",
+        "Value": "2025-09-05T05:49:13.197Z"
+      },
+      {
+        "Name": "ordercaptured",
+        "Value": false
+      },
+      {
+        "Name": "customerloyaltytier",
+        "Value": ""
+      },
+      {
+        "Name": "ordercompleteddate",
+        "Value": "2025-09-05T05:53:43.437Z"
+      },
+      {
+        "Name": "fiftytworeleaseddate",
+        "Value": null
+      },
+      {
+        "Name": "resendorder",
+        "Value": "False"
+      },
+      {
+        "Name": "redemptionid",
+        "Value": ""
+      },
+      {
+        "Name": "hasgiftwrapping",
+        "Value": false
+      },
+      {
+        "Name": "isguest",
+        "Value": "no"
+      },
+      {
+        "Name": "shippingdiscount",
+        "Value": "0.000000"
+      },
+      {
+        "Name": "isvoucherapplied",
+        "Value": ""
+      },
+      {
+        "Name": "voucherredemptions",
+        "Value": ""
+      },
+      {
+        "Name": "voucherdecisiondate",
+        "Value": null
+      },
+      {
+        "Name": "voucherdecision",
+        "Value": ""
+      },
+      {
+        "Name": "updatedcustomeremail",
+        "Value": "d931bf9a60104d039e2c653cd1dbfef6@test.com"
+      },
+      {
+        "Name": "updatedcustomerphone",
+        "Value": "82288522"
+      },
+      {
+        "Name": "isinemployeeprogram",
+        "Value": "false"
+      },
+      {
+        "Name": "creditcardlastdigits",
+        "Value": ""
+      },
+      {
+        "Name": "giftcardnumber",
+        "Value": ""
+      },
+      {
+        "Name": "couponid",
+        "Value": ""
+      },
+      {
+        "Name": "nshift_api_logs",
+        "Value": ""
+      },
+      {
+        "Name": "originalsrcsystem",
+        "Value": ""
+      },
+      {
+        "Name": "branchname",
+        "Value": ""
+      }
+    ],
+    "AdditionalInformation": {
+      "C_transactionCode": "00150980774632509050544199",
+      "OrderCurrency": "DKK",
+      "OverridingCultureName": "da-DK",
+      "UICultureName": "da-DK",
+      "IsImportedOrder": true,
+      "HAS_PASSED_PREAUTH_FRAUD": true,
+      "StartOrder_Server": "sandbox3svc01",
+      "HAS_ORR_FAILURE": false
+    }
+  },
+  {
+    "InternalOrderId": 36220,
+    "ExternalOrderId": "10077462",
+    "OrderDateUtc": "2025-09-05T05:42:44.027Z",
+    "LastUpdatedDateUtc": "2025-09-05T05:51:43.473Z",
+    "DeadlineDateUtc": null,
+    "OrderStatus": "Paid",
+    "InvoiceStatus": "FullyInvoiced",
+    "ShipmentStatus": "FullyShipped",
+    "ShipToStore": null,
+    "BillingCustomer": {
+      "FirstName": "Autotest",
+      "LastName": "Autotest",
+      "EmailAddress": "c0d4d9debb7a4671ab85caae6fd9d98d@test.com",
+      "InternalCustomerId": 15090,
+      "ExternalCustomerId": null,
+      "UserId": "83022725"
+    },
+    "LineItems": [
+      {
+        "InternalLineItemId": 53441,
+        "ProductName": "Clima 500 ml - Sage",
+        "ItemName": "Clima 500 ml - Sage",
+        "Description": "",
+        "QuantityInvoiced": 2,
+        "QuantityShipped": 2,
+        "QuantityCancelled": 0,
+        "QuantityReturned": 0,
+        "SubTotal": 650,
+        "TotalTax": 130,
+        "Total": 650,
+        "IsPreOrder": false,
+        "Taxes": [
+          {
+            "InternalTaxRateId": 8,
+            "Amount": 130,
+            "BackendName": "VAT DK 0.25",
+            "PublicTaxName": "VAT DK 25%",
+            "TaxType": "Net",
+            "Rate": 0.25
+          }
+        ],
+        "SKU": "S00511539",
+        "ExternalLineItemId": null,
+        "QuantityOrdered": 2,
+        "UnitPrice": 325,
+        "UnitDiscount": 0,
+        "CustomFields": [
+          {
+            "Name": "externallineitemid",
+            "Value": "1"
+          },
+          {
+            "Name": "productean",
+            "Value": "8051513921834"
+          },
+          {
+            "Name": "restrictiongroup",
+            "Value": "GENERIC"
+          },
+          {
+            "Name": "returncode",
+            "Value": "0002127497596"
+          },
+          {
+            "Name": "resendreason",
+            "Value": ""
+          },
+          {
+            "Name": "hasgiftwrapping",
+            "Value": null
+          },
+          {
+            "Name": "giftwrappingqty",
+            "Value": null
+          },
+          {
+            "Name": "color",
+            "Value": "Grøn"
+          },
+          {
+            "Name": "size",
+            "Value": "7,3 x 20,5 cm"
+          },
+          {
+            "Name": "unitproductdiscount",
+            "Value": "0.000000"
+          },
+          {
+            "Name": "unitorderdiscount",
+            "Value": "0.000000"
+          },
+          {
+            "Name": "unittotal",
+            "Value": "325.000000"
+          },
+          {
+            "Name": "unittotalproddisc",
+            "Value": "325.000000"
+          },
+          {
+            "Name": "bopisshlocation",
+            "Value": ""
+          }
+        ]
+      },
+      {
+        "InternalLineItemId": 53442,
+        "ProductName": "HORIZON TRUCKER TNF BLACK",
+        "ItemName": "HORIZON TRUCKER TNF BLACK",
+        "Description": "",
+        "QuantityInvoiced": 2,
+        "QuantityShipped": 2,
+        "QuantityCancelled": 0,
+        "QuantityReturned": 0,
+        "SubTotal": 498,
+        "TotalTax": 99.6,
+        "Total": 498,
+        "IsPreOrder": false,
+        "Taxes": [
+          {
+            "InternalTaxRateId": 8,
+            "Amount": 99.6,
+            "BackendName": "VAT DK 0.25",
+            "PublicTaxName": "VAT DK 25%",
+            "TaxType": "Net",
+            "Rate": 0.25
+          }
+        ],
+        "SKU": "S11433820",
+        "ExternalLineItemId": null,
+        "QuantityOrdered": 2,
+        "UnitPrice": 249,
+        "UnitDiscount": 0,
+        "CustomFields": [
+          {
+            "Name": "externallineitemid",
+            "Value": "2"
+          },
+          {
+            "Name": "productean",
+            "Value": "193391980997"
+          },
+          {
+            "Name": "restrictiongroup",
+            "Value": "GENERIC"
+          },
+          {
+            "Name": "returncode",
+            "Value": "0002127497626"
+          },
+          {
+            "Name": "resendreason",
+            "Value": ""
+          },
+          {
+            "Name": "hasgiftwrapping",
+            "Value": null
+          },
+          {
+            "Name": "giftwrappingqty",
+            "Value": null
+          },
+          {
+            "Name": "color",
+            "Value": "Sort"
+          },
+          {
+            "Name": "size",
+            "Value": "One Size"
+          },
+          {
+            "Name": "unitproductdiscount",
+            "Value": "0.000000"
+          },
+          {
+            "Name": "unitorderdiscount",
+            "Value": "0.000000"
+          },
+          {
+            "Name": "unittotal",
+            "Value": "249.000000"
+          },
+          {
+            "Name": "unittotalproddisc",
+            "Value": "249.000000"
+          },
+          {
+            "Name": "bopisshlocation",
+            "Value": ""
+          }
+        ]
+      },
+      {
+        "InternalLineItemId": 53443,
+        "ProductName": "Eli cap",
+        "ItemName": "Eli cap",
+        "Description": "",
+        "QuantityInvoiced": 2,
+        "QuantityShipped": 2,
+        "QuantityCancelled": 0,
+        "QuantityReturned": 0,
+        "SubTotal": 800,
+        "TotalTax": 160,
+        "Total": 800,
+        "IsPreOrder": false,
+        "Taxes": [
+          {
+            "InternalTaxRateId": 8,
+            "Amount": 160,
+            "BackendName": "VAT DK 0.25",
+            "PublicTaxName": "VAT DK 25%",
+            "TaxType": "Net",
+            "Rate": 0.25
+          }
+        ],
+        "SKU": "S10784539",
+        "ExternalLineItemId": null,
+        "QuantityOrdered": 2,
+        "UnitPrice": 400,
+        "UnitDiscount": 0,
+        "CustomFields": [
+          {
+            "Name": "externallineitemid",
+            "Value": "3"
+          },
+          {
+            "Name": "productean",
+            "Value": "5714994054486"
+          },
+          {
+            "Name": "restrictiongroup",
+            "Value": "GENERIC"
+          },
+          {
+            "Name": "returncode",
+            "Value": "0002127497657"
+          },
+          {
+            "Name": "resendreason",
+            "Value": ""
+          },
+          {
+            "Name": "hasgiftwrapping",
+            "Value": null
+          },
+          {
+            "Name": "giftwrappingqty",
+            "Value": null
+          },
+          {
+            "Name": "color",
+            "Value": "Sort"
+          },
+          {
+            "Name": "size",
+            "Value": "ONE SIZE"
+          },
+          {
+            "Name": "unitproductdiscount",
+            "Value": "0.000000"
+          },
+          {
+            "Name": "unitorderdiscount",
+            "Value": "0.000000"
+          },
+          {
+            "Name": "unittotal",
+            "Value": "400.000000"
+          },
+          {
+            "Name": "unittotalproddisc",
+            "Value": "400.000000"
+          },
+          {
+            "Name": "bopisshlocation",
+            "Value": ""
+          }
+        ]
+      }
+    ],
+    "BillingAddress": {
+      "Id": 64424,
+      "ExternalAddressId": "",
+      "FirstName": "Autotest",
+      "LastName": "Autotest",
+      "CompanyName": "",
+      "AddressLine1": "Nybrogade 2",
+      "AddressLine2": "",
+      "AddressLine3": "",
+      "City": "Copenhagen",
+      "State": "DEFAULT",
+      "ZipCode": "1203",
+      "CountryCode": "DK",
+      "Latitude": null,
+      "Longitude": null
+    },
+    "ShippingAddress": {
+      "Id": 64425,
+      "ExternalAddressId": "",
+      "FirstName": "Autotest",
+      "LastName": "Autotest",
+      "CompanyName": "",
+      "AddressLine1": "Nybrogade 2",
+      "AddressLine2": "",
+      "AddressLine3": "",
+      "City": "Copenhagen",
+      "State": "COPENHAGEN",
+      "ZipCode": "1203",
+      "CountryCode": "DK",
+      "Latitude": null,
+      "Longitude": null
+    },
+    "OrderPayments": [
+      {
+        "InternalOrderPaymentId": 41479,
+        "ExternalOrderPaymentId": null,
+        "PaymentType": "CreditCard",
+        "PaymentTypeDescription": "OTHER - XXXXXXXXXXXX0000",
+        "PaymentId": 13284,
+        "Amount": 2003,
+        "AmountAuthorized": 2003,
+        "AmountCaptured": 2003,
+        "Status": "Captured",
+        "LastUpdatedBy": {
+          "StaffName": "",
+          "StaffId": null
+        },
+        "CustomFields": [
+          {
+            "Name": "refundpriority",
+            "Value": true
+          },
+          {
+            "Name": "capturepriority",
+            "Value": 0
+          },
+          {
+            "Name": "giftcardpinnumber",
+            "Value": ""
+          }
+        ]
+      }
+    ],
+    "Taxes": [
+      {
+        "InternalTaxRateId": 8,
+        "Amount": 400.6,
+        "BackendName": "VAT DK 0.25",
+        "PublicTaxName": "VAT DK 25%",
+        "TaxType": "Net",
+        "Rate": 0.25
+      }
+    ],
+    "ShippingRate": [
+      {
+        "InternalShippingRateId": 33,
+        "PublicShippingRateName": "glsPrivate",
+        "BackendName": "glsPrivate",
+        "RateCode": "glsPrivate",
+        "CurrentRate": 0,
+        "EnableReturnLabelGeneration": false
+      }
+    ],
+    "ShippingTaxes": [
+      {
+        "InternalTaxRateId": 8,
+        "Amount": 11,
+        "BackendName": "VAT DK 0.25",
+        "PublicTaxName": "VAT DK 25%",
+        "TaxType": "Net",
+        "Rate": 0.25
+      }
+    ],
+    "ShippingTotal": 55,
+    "SubTotal": 1948,
+    "DiscountTotal": 0,
+    "OrderTotal": 2003,
+    "CurrencyCode": "DKK",
+    "UICultureName": "da-DK",
+    "EStoreCultureName": "da-DK",
+    "Channel": "MAGASIN_DK_DKK",
+    "AdditionalFlags": "None",
+    "Comments": "",
+    "OriginIPAddress": "",
+    "CustomFields": [
+      {
+        "Name": "ordertype",
+        "Value": "STD"
+      },
+      {
+        "Name": "createshipmentprocesseddateutc",
+        "Value": "2025-09-05T05:47:18.843Z"
+      },
+      {
+        "Name": "ordercaptured",
+        "Value": false
+      },
+      {
+        "Name": "customerloyaltytier",
+        "Value": ""
+      },
+      {
+        "Name": "ordercompleteddate",
+        "Value": "2025-09-05T05:51:43.447Z"
+      },
+      {
+        "Name": "fiftytworeleaseddate",
+        "Value": null
+      },
+      {
+        "Name": "resendorder",
+        "Value": "False"
+      },
+      {
+        "Name": "redemptionid",
+        "Value": ""
+      },
+      {
+        "Name": "hasgiftwrapping",
+        "Value": false
+      },
+      {
+        "Name": "isguest",
+        "Value": "no"
+      },
+      {
+        "Name": "shippingdiscount",
+        "Value": "0.000000"
+      },
+      {
+        "Name": "isvoucherapplied",
+        "Value": ""
+      },
+      {
+        "Name": "voucherredemptions",
+        "Value": ""
+      },
+      {
+        "Name": "voucherdecisiondate",
+        "Value": null
+      },
+      {
+        "Name": "voucherdecision",
+        "Value": ""
+      },
+      {
+        "Name": "updatedcustomeremail",
+        "Value": "c0d4d9debb7a4671ab85caae6fd9d98d@test.com"
+      },
+      {
+        "Name": "updatedcustomerphone",
+        "Value": "29721344"
+      },
+      {
+        "Name": "isinemployeeprogram",
+        "Value": "false"
+      },
+      {
+        "Name": "creditcardlastdigits",
+        "Value": ""
+      },
+      {
+        "Name": "giftcardnumber",
+        "Value": ""
+      },
+      {
+        "Name": "couponid",
+        "Value": ""
+      },
+      {
+        "Name": "nshift_api_logs",
+        "Value": ""
+      },
+      {
+        "Name": "originalsrcsystem",
+        "Value": ""
+      },
+      {
+        "Name": "branchname",
+        "Value": ""
+      }
+    ],
+    "AdditionalInformation": {
+      "C_transactionCode": "00150980774622509050542443",
+      "OrderCurrency": "DKK",
+      "OverridingCultureName": "da-DK",
+      "UICultureName": "da-DK",
+      "IsImportedOrder": true,
+      "HAS_PASSED_PREAUTH_FRAUD": true,
+      "StartOrder_Server": "sandbox3svc02",
+      "HAS_ORR_FAILURE": false
+    }
+  },
+  {
+    "InternalOrderId": 36217,
+    "ExternalOrderId": "10077459",
+    "OrderDateUtc": "2025-09-05T05:38:36.92Z",
+    "LastUpdatedDateUtc": "2025-09-05T05:54:49.51Z",
+    "DeadlineDateUtc": null,
+    "OrderStatus": "Paid",
+    "InvoiceStatus": "FullyInvoiced",
+    "ShipmentStatus": "FullyShipped",
+    "ShipToStore": null,
+    "BillingCustomer": {
+      "FirstName": "Autotest",
+      "LastName": "Autotest",
+      "EmailAddress": "7abc50af6f3c44dda0652f2d43f0ab6f@test.com",
+      "InternalCustomerId": 15087,
+      "ExternalCustomerId": null,
+      "UserId": "83022722"
+    },
+    "LineItems": [
+      {
+        "InternalLineItemId": 53438,
+        "ProductName": "SLFLULU LS KNIT O-NECK B NOOS",
+        "ItemName": "1270,Selected Femme,Selected Femme,SLFLULU LS KNIT O-NECK B NOOS,16074482292955004,Moonlite Mauve/Melange,S,5715507743408",
+        "Description": "",
+        "QuantityInvoiced": 1,
+        "QuantityShipped": 1,
+        "QuantityCancelled": 0,
+        "QuantityReturned": 1,
+        "SubTotal": 499.95,
+        "TotalTax": 99.99,
+        "Total": 499.95,
+        "IsPreOrder": false,
+        "Taxes": [
+          {
+            "InternalTaxRateId": 8,
+            "Amount": 99.99,
+            "BackendName": "VAT DK 0.25",
+            "PublicTaxName": "VAT DK 25%",
+            "TaxType": "Net",
+            "Rate": 0.25
+          }
+        ],
+        "SKU": "S12791997",
+        "ExternalLineItemId": null,
+        "QuantityOrdered": 1,
+        "UnitPrice": 499.95,
+        "UnitDiscount": 0,
+        "CustomFields": [
+          {
+            "Name": "externallineitemid",
+            "Value": "1"
+          },
+          {
+            "Name": "productean",
+            "Value": "5715507743408"
+          },
+          {
+            "Name": "restrictiongroup",
+            "Value": "GENERIC"
+          },
+          {
+            "Name": "returncode",
+            "Value": "0002127464697"
+          },
+          {
+            "Name": "resendreason",
+            "Value": ""
+          },
+          {
+            "Name": "hasgiftwrapping",
+            "Value": null
+          },
+          {
+            "Name": "giftwrappingqty",
+            "Value": null
+          },
+          {
+            "Name": "color",
+            "Value": "Moonlite Mauve/Melange"
+          },
+          {
+            "Name": "size",
+            "Value": "S"
+          },
+          {
+            "Name": "unitproductdiscount",
+            "Value": "0.000000"
+          },
+          {
+            "Name": "unitorderdiscount",
+            "Value": "0.000000"
+          },
+          {
+            "Name": "unittotal",
+            "Value": "499.950000"
+          },
+          {
+            "Name": "unittotalproddisc",
+            "Value": "499.950000"
+          },
+          {
+            "Name": "bopisshlocation",
+            "Value": ""
+          }
+        ]
+      }
+    ],
+    "BillingAddress": {
+      "Id": 64418,
+      "ExternalAddressId": "",
+      "FirstName": "Autotest",
+      "LastName": "Autotest",
+      "CompanyName": "",
+      "AddressLine1": "Nybrogade 2",
+      "AddressLine2": "",
+      "AddressLine3": "",
+      "City": "Copenhagen",
+      "State": "DEFAULT",
+      "ZipCode": "1203",
+      "CountryCode": "DK",
+      "Latitude": null,
+      "Longitude": null
+    },
+    "ShippingAddress": {
+      "Id": 64419,
+      "ExternalAddressId": "",
+      "FirstName": "Autotest",
+      "LastName": "Autotest",
+      "CompanyName": "",
+      "AddressLine1": "Nybrogade 2",
+      "AddressLine2": "",
+      "AddressLine3": "",
+      "City": "Copenhagen",
+      "State": "COPENHAGEN",
+      "ZipCode": "1203",
+      "CountryCode": "DK",
+      "Latitude": null,
+      "Longitude": null
+    },
+    "OrderPayments": [
+      {
+        "InternalOrderPaymentId": 41476,
+        "ExternalOrderPaymentId": null,
+        "PaymentType": "CreditCard",
+        "PaymentTypeDescription": "OTHER - XXXXXXXXXXXX0000",
+        "PaymentId": 13282,
+        "Amount": 554.95,
+        "AmountAuthorized": 554.95,
+        "AmountCaptured": 554.95,
+        "Status": "Captured",
+        "LastUpdatedBy": {
+          "StaffName": "",
+          "StaffId": null
+        },
+        "CustomFields": [
+          {
+            "Name": "refundpriority",
+            "Value": true
+          },
+          {
+            "Name": "capturepriority",
+            "Value": 0
+          },
+          {
+            "Name": "giftcardpinnumber",
+            "Value": ""
+          }
+        ]
+      }
+    ],
+    "Taxes": [
+      {
+        "InternalTaxRateId": 8,
+        "Amount": 110.99,
+        "BackendName": "VAT DK 0.25",
+        "PublicTaxName": "VAT DK 25%",
+        "TaxType": "Net",
+        "Rate": 0.25
+      }
+    ],
+    "ShippingRate": [
+      {
+        "InternalShippingRateId": 33,
+        "PublicShippingRateName": "glsPrivate",
+        "BackendName": "glsPrivate",
+        "RateCode": "glsPrivate",
+        "CurrentRate": 0,
+        "EnableReturnLabelGeneration": false
+      }
+    ],
+    "ShippingTaxes": [
+      {
+        "InternalTaxRateId": 8,
+        "Amount": 11,
+        "BackendName": "VAT DK 0.25",
+        "PublicTaxName": "VAT DK 25%",
+        "TaxType": "Net",
+        "Rate": 0.25
+      }
+    ],
+    "ShippingTotal": 55,
+    "SubTotal": 499.95,
+    "DiscountTotal": 0,
+    "OrderTotal": 554.95,
+    "CurrencyCode": "DKK",
+    "UICultureName": "da-DK",
+    "EStoreCultureName": "da-DK",
+    "Channel": "MAGASIN_DK_DKK",
+    "AdditionalFlags": "Returned",
+    "Comments": "",
+    "OriginIPAddress": "",
+    "CustomFields": [
+      {
+        "Name": "ordertype",
+        "Value": "STD"
+      },
+      {
+        "Name": "createshipmentprocesseddateutc",
+        "Value": "2025-09-05T05:43:09.33Z"
+      },
+      {
+        "Name": "ordercaptured",
+        "Value": false
+      },
+      {
+        "Name": "customerloyaltytier",
+        "Value": ""
+      },
+      {
+        "Name": "ordercompleteddate",
+        "Value": "2025-09-05T05:50:48.233Z"
+      },
+      {
+        "Name": "fiftytworeleaseddate",
+        "Value": null
+      },
+      {
+        "Name": "resendorder",
+        "Value": "False"
+      },
+      {
+        "Name": "redemptionid",
+        "Value": ""
+      },
+      {
+        "Name": "hasgiftwrapping",
+        "Value": false
+      },
+      {
+        "Name": "isguest",
+        "Value": "no"
+      },
+      {
+        "Name": "shippingdiscount",
+        "Value": "0.000000"
+      },
+      {
+        "Name": "isvoucherapplied",
+        "Value": ""
+      },
+      {
+        "Name": "voucherredemptions",
+        "Value": ""
+      },
+      {
+        "Name": "voucherdecisiondate",
+        "Value": null
+      },
+      {
+        "Name": "voucherdecision",
+        "Value": ""
+      },
+      {
+        "Name": "updatedcustomeremail",
+        "Value": "7abc50af6f3c44dda0652f2d43f0ab6f@test.com"
+      },
+      {
+        "Name": "updatedcustomerphone",
+        "Value": "47129054"
+      },
+      {
+        "Name": "isinemployeeprogram",
+        "Value": "false"
+      },
+      {
+        "Name": "creditcardlastdigits",
+        "Value": ""
+      },
+      {
+        "Name": "giftcardnumber",
+        "Value": ""
+      },
+      {
+        "Name": "couponid",
+        "Value": ""
+      },
+      {
+        "Name": "nshift_api_logs",
+        "Value": ""
+      },
+      {
+        "Name": "originalsrcsystem",
+        "Value": ""
+      },
+      {
+        "Name": "branchname",
+        "Value": ""
+      }
+    ],
+    "AdditionalInformation": {
+      "C_transactionCode": "00150980774592509050538363",
+      "OrderCurrency": "DKK",
+      "OverridingCultureName": "da-DK",
+      "UICultureName": "da-DK",
+      "IsImportedOrder": true,
+      "HAS_PASSED_PREAUTH_FRAUD": true,
+      "StartOrder_Server": "sandbox3svc02",
+      "HAS_ORR_FAILURE": false
+    }
+  },
+  {
+    "InternalOrderId": 29938,
+    "ExternalOrderId": "10071193",
+    "OrderDateUtc": "2025-04-10T13:01:12.2Z",
+    "LastUpdatedDateUtc": "2025-08-21T11:10:50.413Z",
+    "DeadlineDateUtc": null,
+    "OrderStatus": "Paid",
+    "InvoiceStatus": "FullyInvoiced",
+    "ShipmentStatus": "FullyShipped",
+    "ShipToStore": null,
+    "BillingCustomer": {
+      "FirstName": "Autotest",
+      "LastName": "Autotest",
+      "EmailAddress": "b37d092e9012400fb7f75dbdebf8fc44@test.com",
+      "InternalCustomerId": 10198,
+      "ExternalCustomerId": null,
+      "UserId": "83016335"
+    },
+    "LineItems": [
+      {
+        "InternalLineItemId": 43135,
+        "ProductName": "Natural Wardrobe Fragrance, HOT",
+        "ItemName": "Natural Wardrobe Fragrance, HOT",
+        "Description": "",
+        "QuantityInvoiced": 5,
+        "QuantityShipped": 5,
+        "QuantityCancelled": 0,
+        "QuantityReturned": 2,
+        "SubTotal": 396,
+        "TotalTax": 79.2,
+        "Total": 396,
+        "IsPreOrder": false,
+        "Taxes": [
+          {
+            "InternalTaxRateId": 8,
+            "Amount": 79.2,
+            "BackendName": "VAT DK 0.25",
+            "PublicTaxName": "VAT DK 25%",
+            "TaxType": "Net",
+            "Rate": 0.25
+          }
+        ],
+        "SKU": "S00161895",
+        "ExternalLineItemId": null,
+        "QuantityOrdered": 5,
+        "UnitPrice": 99,
+        "UnitDiscount": 19.8,
+        "CustomFields": [
+          {
+            "Name": "externallineitemid",
+            "Value": "1"
+          },
+          {
+            "Name": "productean",
+            "Value": "5710334009253"
+          },
+          {
+            "Name": "restrictiongroup",
+            "Value": "GENERIC"
+          },
+          {
+            "Name": "returncode",
+            "Value": "0002066260145"
+          },
+          {
+            "Name": "resendreason",
+            "Value": ""
+          },
+          {
+            "Name": "hasgiftwrapping",
+            "Value": null
+          },
+          {
+            "Name": "giftwrappingqty",
+            "Value": null
+          },
+          {
+            "Name": "color",
+            "Value": "-"
+          },
+          {
+            "Name": "size",
+            "Value": "NO_SIZE"
+          },
+          {
+            "Name": "unitproductdiscount",
+            "Value": "19.800000"
+          },
+          {
+            "Name": "unitorderdiscount",
+            "Value": "0.000000"
+          },
+          {
+            "Name": "unittotal",
+            "Value": "79.200000"
+          },
+          {
+            "Name": "unittotalproddisc",
+            "Value": "79.200000"
+          },
+          {
+            "Name": "bopisshlocation",
+            "Value": ""
+          }
+        ]
+      }
+    ],
+    "BillingAddress": {
+      "Id": 51841,
+      "ExternalAddressId": "",
+      "FirstName": "Autotest",
+      "LastName": "Autotest",
+      "CompanyName": "",
+      "AddressLine1": "Nybrogade 2",
+      "AddressLine2": "",
+      "AddressLine3": "",
+      "City": "Copenhagen",
+      "State": "DEFAULT",
+      "ZipCode": "1203",
+      "CountryCode": "DK",
+      "Latitude": null,
+      "Longitude": null
+    },
+    "ShippingAddress": {
+      "Id": 51842,
+      "ExternalAddressId": "",
+      "FirstName": "Autotest",
+      "LastName": "Autotest",
+      "CompanyName": "",
+      "AddressLine1": "Nybrogade 2",
+      "AddressLine2": "",
+      "AddressLine3": "",
+      "City": "Copenhagen",
+      "State": "COPENHAGEN",
+      "ZipCode": "1203",
+      "CountryCode": "DK",
+      "Latitude": null,
+      "Longitude": null
+    },
+    "OrderPayments": [
+      {
+        "InternalOrderPaymentId": 34590,
+        "ExternalOrderPaymentId": null,
+        "PaymentType": "CreditCard",
+        "PaymentTypeDescription": "OTHER - XXXXXXXXXXXX0000",
+        "PaymentId": 9098,
+        "Amount": 451,
+        "AmountAuthorized": 451,
+        "AmountCaptured": 451,
+        "Status": "Captured",
+        "LastUpdatedBy": {
+          "StaffName": "",
+          "StaffId": null
+        },
+        "CustomFields": [
+          {
+            "Name": "refundpriority",
+            "Value": true
+          },
+          {
+            "Name": "capturepriority",
+            "Value": 0
+          },
+          {
+            "Name": "giftcardpinnumber",
+            "Value": ""
+          }
+        ]
+      },
+      {
+        "InternalOrderPaymentId": 40496,
+        "ExternalOrderPaymentId": null,
+        "PaymentType": "CreditMemo",
+        "PaymentTypeDescription": "Credit Memo ID 1283",
+        "PaymentId": 1283,
+        "Amount": 0,
+        "AmountAuthorized": 0,
+        "AmountCaptured": 0,
+        "Status": "Captured",
+        "LastUpdatedBy": {
+          "StaffName": "",
+          "StaffId": null
+        },
+        "CustomFields": [
+          {
+            "Name": "refundpriority",
+            "Value": null
+          },
+          {
+            "Name": "capturepriority",
+            "Value": null
+          },
+          {
+            "Name": "giftcardpinnumber",
+            "Value": ""
+          }
+        ]
+      },
+      {
+        "InternalOrderPaymentId": 40623,
+        "ExternalOrderPaymentId": null,
+        "PaymentType": "CreditMemo",
+        "PaymentTypeDescription": "Credit Memo ID 1284",
+        "PaymentId": 1284,
+        "Amount": 0,
+        "AmountAuthorized": 0,
+        "AmountCaptured": 0,
+        "Status": "Captured",
+        "LastUpdatedBy": {
+          "StaffName": "",
+          "StaffId": null
+        },
+        "CustomFields": [
+          {
+            "Name": "refundpriority",
+            "Value": null
+          },
+          {
+            "Name": "capturepriority",
+            "Value": null
+          },
+          {
+            "Name": "giftcardpinnumber",
+            "Value": ""
+          }
+        ]
+      }
+    ],
+    "Taxes": [
+      {
+        "InternalTaxRateId": 8,
+        "Amount": 90.2,
+        "BackendName": "VAT DK 0.25",
+        "PublicTaxName": "VAT DK 25%",
+        "TaxType": "Net",
+        "Rate": 0.25
+      }
+    ],
+    "ShippingRate": [
+      {
+        "InternalShippingRateId": 33,
+        "PublicShippingRateName": "glsPrivate",
+        "BackendName": "glsPrivate",
+        "RateCode": "glsPrivate",
+        "CurrentRate": 0,
+        "EnableReturnLabelGeneration": false
+      }
+    ],
+    "ShippingTaxes": [
+      {
+        "InternalTaxRateId": 8,
+        "Amount": 11,
+        "BackendName": "VAT DK 0.25",
+        "PublicTaxName": "VAT DK 25%",
+        "TaxType": "Net",
+        "Rate": 0.25
+      }
+    ],
+    "ShippingTotal": 55,
+    "SubTotal": 495,
+    "DiscountTotal": 99,
+    "OrderTotal": 451,
+    "CurrencyCode": "DKK",
+    "UICultureName": "da-DK",
+    "EStoreCultureName": "da-DK",
+    "Channel": "MAGASIN_DK_DKK",
+    "AdditionalFlags": "Returned",
+    "Comments": "",
+    "OriginIPAddress": "",
+    "CustomFields": [
+      {
+        "Name": "ordertype",
+        "Value": "STD"
+      },
+      {
+        "Name": "createshipmentprocesseddateutc",
+        "Value": "2025-04-10T13:05:29.64Z"
+      },
+      {
+        "Name": "ordercaptured",
+        "Value": false
+      },
+      {
+        "Name": "customerloyaltytier",
+        "Value": ""
+      },
+      {
+        "Name": "ordercompleteddate",
+        "Value": "2025-04-10T13:30:51.197Z"
+      },
+      {
+        "Name": "fiftytworeleaseddate",
+        "Value": null
+      },
+      {
+        "Name": "resendorder",
+        "Value": "False"
+      },
+      {
+        "Name": "redemptionid",
+        "Value": ""
+      },
+      {
+        "Name": "hasgiftwrapping",
+        "Value": false
+      },
+      {
+        "Name": "isguest",
+        "Value": "no"
+      },
+      {
+        "Name": "shippingdiscount",
+        "Value": "0.000000"
+      },
+      {
+        "Name": "isvoucherapplied",
+        "Value": ""
+      },
+      {
+        "Name": "voucherredemptions",
+        "Value": ""
+      },
+      {
+        "Name": "voucherdecisiondate",
+        "Value": null
+      },
+      {
+        "Name": "voucherdecision",
+        "Value": ""
+      },
+      {
+        "Name": "updatedcustomeremail",
+        "Value": "b37d092e9012400fb7f75dbdebf8fc44@test.com"
+      },
+      {
+        "Name": "updatedcustomerphone",
+        "Value": ""
+      },
+      {
+        "Name": "isinemployeeprogram",
+        "Value": "false"
+      },
+      {
+        "Name": "creditcardlastdigits",
+        "Value": ""
+      },
+      {
+        "Name": "giftcardnumber",
+        "Value": ""
+      },
+      {
+        "Name": "couponid",
+        "Value": ""
+      },
+      {
+        "Name": "nshift_api_logs",
+        "Value": ""
+      },
+      {
+        "Name": "originalsrcsystem",
+        "Value": ""
+      },
+      {
+        "Name": "branchname",
+        "Value": ""
+      }
+    ],
+    "AdditionalInformation": {
+      "C_transactionCode": "00150980711932504101301128",
+      "OrderCurrency": "DKK",
+      "OverridingCultureName": "da-DK",
+      "UICultureName": "da-DK",
+      "IsImportedOrder": true,
+      "HAS_PASSED_PREAUTH_FRAUD": true,
+      "StartOrder_Server": "sandbox3svc02",
+      "HAS_ORR_FAILURE": false
+    }
+  },
+  {
+    "InternalOrderId": 34872,
+    "ExternalOrderId": "10076161",
+    "OrderDateUtc": "2025-08-07T05:39:30.907Z",
+    "LastUpdatedDateUtc": "2025-08-07T05:52:40.423Z",
+    "DeadlineDateUtc": null,
+    "OrderStatus": "ShipmentsCreated",
+    "InvoiceStatus": "FullyInvoiced",
+    "ShipmentStatus": "FullyShipped",
+    "ShipToStore": null,
+    "BillingCustomer": {
+      "FirstName": "Autotest",
+      "LastName": "Autotest",
+      "EmailAddress": "9e260b628ce548cb98fb17a61d6ba4f3@test.com",
+      "InternalCustomerId": 14083,
+      "ExternalCustomerId": null,
+      "UserId": "83021324"
+    },
+    "LineItems": [
+      {
+        "InternalLineItemId": 51185,
+        "ProductName": "COLLECTION FLEECE-FZ HOOD-TP-KNT",
+        "ItemName": "COLLECTION FLEECE-FZ HOOD-TP-KNT",
+        "Description": "",
+        "QuantityInvoiced": 0,
+        "QuantityShipped": 0,
+        "QuantityCancelled": 1,
+        "QuantityReturned": 0,
+        "SubTotal": 0,
+        "TotalTax": 0,
+        "Total": 0,
+        "IsPreOrder": false,
+        "Taxes": [
+          {
+            "InternalTaxRateId": 8,
+            "Amount": 0,
+            "BackendName": "VAT DK 0.25",
+            "PublicTaxName": "VAT DK 25%",
+            "TaxType": "Net",
+            "Rate": 0.25
+          }
+        ],
+        "SKU": "S05313554",
+        "ExternalLineItemId": null,
+        "QuantityOrdered": 1,
+        "UnitPrice": 799,
+        "UnitDiscount": 0,
+        "CustomFields": [
+          {
+            "Name": "externallineitemid",
+            "Value": "1"
+          },
+          {
+            "Name": "productean",
+            "Value": "3611586970457"
+          },
+          {
+            "Name": "restrictiongroup",
+            "Value": "GENERIC"
+          },
+          {
+            "Name": "returncode",
+            "Value": "0002114493853"
+          },
+          {
+            "Name": "resendreason",
+            "Value": ""
+          },
+          {
+            "Name": "hasgiftwrapping",
+            "Value": true
+          },
+          {
+            "Name": "giftwrappingqty",
+            "Value": 1
+          },
+          {
+            "Name": "color",
+            "Value": "Grå"
+          },
+          {
+            "Name": "size",
+            "Value": "S"
+          },
+          {
+            "Name": "unitproductdiscount",
+            "Value": "0.000000"
+          },
+          {
+            "Name": "unitorderdiscount",
+            "Value": "0.000000"
+          },
+          {
+            "Name": "unittotal",
+            "Value": "799.000000"
+          },
+          {
+            "Name": "unittotalproddisc",
+            "Value": "799.000000"
+          },
+          {
+            "Name": "bopisshlocation",
+            "Value": ""
+          }
+        ]
+      },
+      {
+        "InternalLineItemId": 51186,
+        "ProductName": "Serveringsskål 2,2L Azure Blue",
+        "ItemName": "Serveringsskål 2,2L Azure Blue",
+        "Description": "",
+        "QuantityInvoiced": 2,
+        "QuantityShipped": 2,
+        "QuantityCancelled": 0,
+        "QuantityReturned": 0,
+        "SubTotal": 638,
+        "TotalTax": 127.6,
+        "Total": 638,
+        "IsPreOrder": false,
+        "Taxes": [
+          {
+            "InternalTaxRateId": 8,
+            "Amount": 127.6,
+            "BackendName": "VAT DK 0.25",
+            "PublicTaxName": "VAT DK 25%",
+            "TaxType": "Net",
+            "Rate": 0.25
+          }
+        ],
+        "SKU": "S00607902",
+        "ExternalLineItemId": null,
+        "QuantityOrdered": 2,
+        "UnitPrice": 319,
+        "UnitDiscount": 0,
+        "CustomFields": [
+          {
+            "Name": "externallineitemid",
+            "Value": "2"
+          },
+          {
+            "Name": "productean",
+            "Value": "843251173440"
+          },
+          {
+            "Name": "restrictiongroup",
+            "Value": "GENERIC"
+          },
+          {
+            "Name": "returncode",
+            "Value": "0002114493891"
+          },
+          {
+            "Name": "resendreason",
+            "Value": ""
+          },
+          {
+            "Name": "hasgiftwrapping",
+            "Value": null
+          },
+          {
+            "Name": "giftwrappingqty",
+            "Value": null
+          },
+          {
+            "Name": "color",
+            "Value": "Azure Blue"
+          },
+          {
+            "Name": "size",
+            "Value": "23 cm"
+          },
+          {
+            "Name": "unitproductdiscount",
+            "Value": "0.000000"
+          },
+          {
+            "Name": "unitorderdiscount",
+            "Value": "0.000000"
+          },
+          {
+            "Name": "unittotal",
+            "Value": "319.000000"
+          },
+          {
+            "Name": "unittotalproddisc",
+            "Value": "319.000000"
+          },
+          {
+            "Name": "bopisshlocation",
+            "Value": ""
+          }
+        ]
+      },
+      {
+        "InternalLineItemId": 51187,
+        "ProductName": "Magasin Giftwrap",
+        "ItemName": "Giftwrap",
+        "Description": "",
+        "QuantityInvoiced": 0,
+        "QuantityShipped": 0,
+        "QuantityCancelled": 1,
+        "QuantityReturned": 0,
+        "SubTotal": 0,
+        "TotalTax": 0,
+        "Total": 0,
+        "IsPreOrder": false,
+        "Taxes": [
+          {
+            "InternalTaxRateId": 8,
+            "Amount": 0,
+            "BackendName": "VAT DK 0.25",
+            "PublicTaxName": "VAT DK 25%",
+            "TaxType": "Net",
+            "Rate": 0.25
+          }
+        ],
+        "SKU": "2222002034243",
+        "ExternalLineItemId": null,
+        "QuantityOrdered": 1,
+        "UnitPrice": 10,
+        "UnitDiscount": 0,
+        "CustomFields": [
+          {
+            "Name": "externallineitemid",
+            "Value": "3"
+          },
+          {
+            "Name": "productean",
+            "Value": "2222002034243"
+          },
+          {
+            "Name": "restrictiongroup",
+            "Value": "GENERIC"
+          },
+          {
+            "Name": "returncode",
+            "Value": "0002114493938"
+          },
+          {
+            "Name": "resendreason",
+            "Value": ""
+          },
+          {
+            "Name": "hasgiftwrapping",
+            "Value": null
+          },
+          {
+            "Name": "giftwrappingqty",
+            "Value": null
+          },
+          {
+            "Name": "color",
+            "Value": ""
+          },
+          {
+            "Name": "size",
+            "Value": ""
+          },
+          {
+            "Name": "unitproductdiscount",
+            "Value": "0.000000"
+          },
+          {
+            "Name": "unitorderdiscount",
+            "Value": "0.000000"
+          },
+          {
+            "Name": "unittotal",
+            "Value": "10.000000"
+          },
+          {
+            "Name": "unittotalproddisc",
+            "Value": "10.000000"
+          },
+          {
+            "Name": "bopisshlocation",
+            "Value": ""
+          }
+        ]
+      }
+    ],
+    "BillingAddress": {
+      "Id": 61729,
+      "ExternalAddressId": "",
+      "FirstName": "Autotest",
+      "LastName": "Autotest",
+      "CompanyName": "",
+      "AddressLine1": "Nybrogade 2",
+      "AddressLine2": "",
+      "AddressLine3": "",
+      "City": "Copenhagen",
+      "State": "DEFAULT",
+      "ZipCode": "1203",
+      "CountryCode": "DK",
+      "Latitude": null,
+      "Longitude": null
+    },
+    "ShippingAddress": {
+      "Id": 61730,
+      "ExternalAddressId": "",
+      "FirstName": "Autotest",
+      "LastName": "Autotest",
+      "CompanyName": "",
+      "AddressLine1": "Nybrogade 2",
+      "AddressLine2": "",
+      "AddressLine3": "",
+      "City": "Copenhagen",
+      "State": "COPENHAGEN",
+      "ZipCode": "1203",
+      "CountryCode": "DK",
+      "Latitude": null,
+      "Longitude": null
+    },
+    "OrderPayments": [
+      {
+        "InternalOrderPaymentId": 40001,
+        "ExternalOrderPaymentId": null,
+        "PaymentType": "CreditCard",
+        "PaymentTypeDescription": "OTHER - XXXXXXXXXXXX0000",
+        "PaymentId": 12424,
+        "Amount": 1502,
+        "AmountAuthorized": 1502,
+        "AmountCaptured": 693,
+        "Status": "PartiallyCaptured",
+        "LastUpdatedBy": {
+          "StaffName": "",
+          "StaffId": null
+        },
+        "CustomFields": [
+          {
+            "Name": "refundpriority",
+            "Value": true
+          },
+          {
+            "Name": "capturepriority",
+            "Value": 0
+          },
+          {
+            "Name": "giftcardpinnumber",
+            "Value": ""
+          }
+        ]
+      }
+    ],
+    "Taxes": [
+      {
+        "InternalTaxRateId": 8,
+        "Amount": 138.6,
+        "BackendName": "VAT DK 0.25",
+        "PublicTaxName": "VAT DK 25%",
+        "TaxType": "Net",
+        "Rate": 0.25
+      }
+    ],
+    "ShippingRate": [
+      {
+        "InternalShippingRateId": 33,
+        "PublicShippingRateName": "glsPrivate",
+        "BackendName": "glsPrivate",
+        "RateCode": "glsPrivate",
+        "CurrentRate": 0
+      }
+    ],
+    "ShippingTaxes": [
+      {
+        "InternalTaxRateId": 8,
+        "Amount": 11,
+        "BackendName": "VAT DK 0.25",
+        "PublicTaxName": "VAT DK 25%",
+        "TaxType": "Net",
+        "Rate": 0.25
+      }
+    ],
+    "ShippingTotal": 55,
+    "SubTotal": 638,
+    "DiscountTotal": 0,
+    "OrderTotal": 693,
+    "CurrencyCode": "DKK",
+    "UICultureName": "da-DK",
+    "EStoreCultureName": "da-DK",
+    "Channel": "MAGASIN_DK_DKK",
+    "AdditionalFlags": "None",
+    "Comments": "",
+    "OriginIPAddress": "",
+    "CustomFields": [
+      {
+        "Name": "ordertype",
+        "Value": "STD"
+      },
+      {
+        "Name": "createshipmentprocesseddateutc",
+        "Value": "2025-08-07T05:44:09.477Z"
+      },
+      {
+        "Name": "ordercaptured",
+        "Value": false
+      },
+      {
+        "Name": "customerloyaltytier",
+        "Value": ""
+      },
+      {
+        "Name": "ordercompleteddate",
+        "Value": "2025-08-07T05:52:40.41Z"
+      },
+      {
+        "Name": "fiftytworeleaseddate",
+        "Value": null
+      },
+      {
+        "Name": "resendorder",
+        "Value": "False"
+      },
+      {
+        "Name": "redemptionid",
+        "Value": ""
+      },
+      {
+        "Name": "hasgiftwrapping",
+        "Value": true
+      },
+      {
+        "Name": "isguest",
+        "Value": "no"
+      },
+      {
+        "Name": "shippingdiscount",
+        "Value": "0.000000"
+      },
+      {
+        "Name": "isvoucherapplied",
+        "Value": ""
+      },
+      {
+        "Name": "voucherredemptions",
+        "Value": ""
+      },
+      {
+        "Name": "voucherdecisiondate",
+        "Value": null
+      },
+      {
+        "Name": "voucherdecision",
+        "Value": ""
+      },
+      {
+        "Name": "updatedcustomeremail",
+        "Value": "9e260b628ce548cb98fb17a61d6ba4f3@test.com"
+      },
+      {
+        "Name": "updatedcustomerphone",
+        "Value": ""
+      },
+      {
+        "Name": "isinemployeeprogram",
+        "Value": "false"
+      },
+      {
+        "Name": "creditcardlastdigits",
+        "Value": ""
+      },
+      {
+        "Name": "giftcardnumber",
+        "Value": ""
+      },
+      {
+        "Name": "couponid",
+        "Value": ""
+      },
+      {
+        "Name": "nshift_api_logs",
+        "Value": ""
+      },
+      {
+        "Name": "originalsrcsystem",
+        "Value": ""
+      },
+      {
+        "Name": "branchname",
+        "Value": ""
+      }
+    ],
+    "AdditionalInformation": {
+      "C_transactionCode": "00150980761612508070539305",
+      "OrderCurrency": "DKK",
+      "OverridingCultureName": "da-DK",
+      "UICultureName": "da-DK",
+      "IsImportedOrder": true,
+      "HAS_PASSED_PREAUTH_FRAUD": true,
+      "StartOrder_Server": "sandbox3svc01",
+      "HAS_ORR_FAILURE": false
+    }
+  }
+]
