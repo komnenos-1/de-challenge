@@ -19,6 +19,7 @@ services:
       - ./docs:/docker-entrypoint-initdb.d:ro  # runs any *.sql on first start
 
   etl:
+    profiles: ["manual"] 
     build: .
     image: de-etl:latest
     container_name: de_etl

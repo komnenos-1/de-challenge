@@ -18,7 +18,7 @@ test:
 
 # Stop all services (keep volumes)
 down:
-	docker compose down
+	docker compose down -v
 
 # Tail DB logs
 logs:
