@@ -8,9 +8,33 @@ services:
       POSTGRES_DB: ${PGDATABASE:-dedb}
     ports:
       - "55432:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U deuser -d dedb"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+      start_period: 5s
     volumes:
       - pgdata:/var/lib/postgresql/data
       - ./docs:/docker-entrypoint-initdb.d:ro  # runs any *.sql on first start
+
+  etl:
+    build: .
+    image: de-etl:latest
+    container_name: de_etl
+    command: python -m etl.main
+    environment:
+      PGHOST: db
+      PGPORT: 5432
+      PGUSER: deuser
+      PGPASSWORD: secret
+      PGDATABASE: dedb
+      INPUT_PATH: /data/orders_data.json
+    volumes:
+      - ./data:/data:ro
+    depends_on:
+      db:
+        condition: service_healthy
 
 volumes:
   pgdata:
